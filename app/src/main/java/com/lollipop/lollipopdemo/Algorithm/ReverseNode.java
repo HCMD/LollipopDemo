@@ -1,7 +1,4 @@
-package com.lollipop.lollipopdemo;
-
-import android.util.Log;
-import android.widget.ScrollView;
+package com.lollipop.lollipopdemo.Algorithm;
 
 /**
  * 反转单链表

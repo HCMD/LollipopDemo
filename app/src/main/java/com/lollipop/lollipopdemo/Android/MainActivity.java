@@ -1,9 +1,11 @@
-package com.lollipop.lollipopdemo;
+package com.lollipop.lollipopdemo.Android;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
+
+import com.lollipop.lollipopdemo.R;
 
 public class MainActivity extends AppCompatActivity {
 

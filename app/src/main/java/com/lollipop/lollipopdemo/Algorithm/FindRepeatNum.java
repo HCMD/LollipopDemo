@@ -1,4 +1,4 @@
-package com.lollipop.lollipopdemo;
+package com.lollipop.lollipopdemo.Algorithm;
 
 import android.util.SparseArray;
 

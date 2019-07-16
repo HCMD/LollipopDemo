@@ -1,7 +1,9 @@
-package com.lollipop.lollipopdemo;
+package com.lollipop.lollipopdemo.Android;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.lollipop.lollipopdemo.R;
 
 public class EditTextWatcherActivity extends AppCompatActivity {
 
