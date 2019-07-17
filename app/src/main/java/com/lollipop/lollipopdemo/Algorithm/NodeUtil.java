@@ -35,22 +35,20 @@ public class NodeUtil {
         return preNode;
     }
 
-    public static void logNodeValue(Node temp) {
-        while (temp.next != null) {
+    public static void logNodeValue(Node node) {
+        Node temp = node;
+        while (temp != null) {
             System.out.println(temp.value);
             temp = temp.next;
         }
-        System.out.println(temp.value);
     }
 
-    public static void log(Node node) {
-        if (node == null)
-            return;
-        if (node.next == null)
-            System.out.println(node.value);
-        else{
-            System.out.println(node.value);
-            log(node.next);
+    public static int getNodeCount(Node head) {
+        int count = 0;
+        while (head != null) {
+            count++;
+            head = head.next;
         }
+        return count;
     }
 }
