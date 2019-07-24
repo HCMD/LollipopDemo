@@ -8,7 +8,7 @@ public class BubbleSort {
 
     public static void main(String[] args) {
         sort(array);
-        log();
+        log(array);
     }
 
     private static void sort(int[] array) {
@@ -27,8 +27,8 @@ public class BubbleSort {
         }
     }
 
-    private static void log() {
-        for (int i1 : array) {
+    private static void log(int[] array) {
+        for (Object i1 : array) {
             System.out.println(i1);
         }
     }
