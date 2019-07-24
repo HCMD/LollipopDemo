@@ -1,7 +1,9 @@
 package com.lollipop.lollipopdemo.Algorithm;
 
 /**
- * 冒泡排序
+ * 冒泡排序：只会操作相邻的两个数据。每次冒泡操作都会对相邻的两个元素进行比较，看是否满足大小关系要求。
+ * 如果不满足就让它俩互换。
+ *
  */
 public class BubbleSort {
     private static int[] array = new int[]{3, 1, 5, 4, 8};

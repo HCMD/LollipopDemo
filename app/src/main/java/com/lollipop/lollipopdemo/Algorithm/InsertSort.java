@@ -1,5 +1,8 @@
 package com.lollipop.lollipopdemo.Algorithm;
 
+/**
+ * 插入排序：分已排序区间和未排序区间，每次从未排序区间取值，从已排序区间倒序遍历，把元素插入到已排序区间中合适的位置
+ */
 public class InsertSort {
     private static Integer[] array = new Integer[]{1,3,6,4};
 
