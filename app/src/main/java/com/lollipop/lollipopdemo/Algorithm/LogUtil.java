@@ -6,4 +6,10 @@ public class LogUtil {
             System.out.println(i1);
         }
     }
+
+    static void log(int[] array) {
+        for (int i1 : array) {
+            System.out.println(i1);
+        }
+    }
 }
