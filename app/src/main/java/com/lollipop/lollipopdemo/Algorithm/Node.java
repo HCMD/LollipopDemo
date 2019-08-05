@@ -1,7 +1,7 @@
 package com.lollipop.lollipopdemo.Algorithm;
 
-class Node {
-    Object value;
+public class Node {
+   public Object value;
     Node next;
 
     Node(Object value) {

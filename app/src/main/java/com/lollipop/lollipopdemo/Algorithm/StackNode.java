@@ -1,13 +1,13 @@
 package com.lollipop.lollipopdemo.Algorithm;
 
 //链式栈
-class StackNode {
+public class StackNode {
     private Node node;
 
-    StackNode() {
+    public StackNode() {
     }
 
-    Node pushStack(String item) {
+    public Node pushStack(Object item) {
         if (node == null) {
             node = new Node(item);
             return node;
@@ -20,7 +20,7 @@ class StackNode {
         return node;
     }
 
-    Node popStack() {
+    public Node popStack() {
         //空栈
         if (node == null)
             return null;
@@ -40,5 +40,15 @@ class StackNode {
         Node popNode = temp;
         preNode.next = null;
         return popNode;
+    }
+
+    public Node getStackTop() {
+        if (node == null)
+            return null;
+        Node temp = node;
+        while (temp.next != null) {
+            temp = temp.next;
+        }
+        return temp;
     }
 }
